@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ruleset documentation_url="https://github.com/pfwsense/rules">
+    <location url="https://rulesets.pfwsense.org/suricata/" prefix="PFWsense-App-detect"/>
+    <files>
+        <file description="test">pfwsense.test.rules</file>
+        <file description="file-transfer">pfwsense.file_transfer.rules</file>
+        <file description="mail">pfwsense.mail.rules</file>
+        <file description="media-streaming">pfwsense.media_streaming.rules</file>
+        <file description="messaging">pfwsense.messaging.rules</file>
+        <file description="social-networking">pfwsense.social_media.rules</file>
+        <file description="uncategorized">pfwsense.uncategorized.rules</file>
+    </files>
+</ruleset>

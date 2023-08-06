@@ -1,0 +1,7 @@
+{#
+    base64 encoded zip archive containing template overrides
+#}
+{
+  "install": "{{ PFWsense.proxy.general.error_pages|default('pfwsense') }}",
+  "content": "{% if not helpers.empty('PFWsense.proxy.error_pages.template') %}{{ PFWsense.proxy.error_pages.template }}{% endif %}"
+}

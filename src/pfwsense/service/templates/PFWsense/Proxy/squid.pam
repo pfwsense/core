@@ -1,0 +1,5 @@
+# auth
+auth		sufficient	pam_pfwsense.so
+
+# account
+account		sufficient	pam_pfwsense.so

@@ -1,0 +1,3 @@
+#!/bin/sh
+
+pfwsense-beep stop

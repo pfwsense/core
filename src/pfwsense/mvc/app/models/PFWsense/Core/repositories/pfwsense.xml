@@ -1,0 +1,32 @@
+<firmware>
+    <mirrors allow_custom="true">
+        <mirror>
+            <url/>
+            <description>(default)</description>
+        </mirror>
+        <mirror>
+            <url>http://pfwsense.org</url>
+            <description>Sciinfo (HTTPS, Shanghai, CN)</description>
+        </mirror>
+    </mirrors>
+    <flavours allow_custom="true">
+        <flavour has_subscription="true">
+            <name/>
+            <description>(default)</description>
+        </flavour>
+    </flavours>
+    <families>
+        <family has_subscription="true">
+            <name>business</name>
+            <description>Business</description>
+        </family>
+        <family>
+            <name/>
+            <description>Community</description>
+        </family>
+        <family>
+            <name>devel</name>
+            <description>Development</description>
+        </family>
+    </families>
+</firmware>

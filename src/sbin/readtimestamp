@@ -1,0 +1,6 @@
+#!/bin/sh
+# 获取文件的时间信息
+stat_output=$(stat -f "%m" $1)
+# 将时间转换为时间戳
+timestamp=$(date -j -f "%s" $stat_output "+%s")
+echo $timestamp

@@ -1,0 +1,5 @@
+{% if helpers.exists('PFWsense.proxy.forward.sslnobumpsites') and PFWsense.proxy.forward.sslnobumpsites != '' %}
+{% for line in PFWsense.proxy.forward.sslnobumpsites.split(',') %}
+{{ line }}
+{% endfor %}
+{% endif %}
